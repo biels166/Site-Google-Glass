@@ -10,13 +10,13 @@ nav#menu ul{
 }
 nav#menu li{
     display: inline-block;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(190, 190, 190);
     padding: 7px;
     margin: 2px;
     transition: 500ms;
 }
 nav#menu li:hover{
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(114, 114, 114);
     box-shadow: 2px 3px 3px black;
 }
 nav#menu h1{
@@ -32,21 +32,49 @@ nav#menu a:hover{
 }
 
 
+header#cabecalho img#icone{
+    position: absolute;
+    top: 80px;
+    left: 965px;
+}
+header#cabecalho{
+    border-bottom: 1px rgb(118, 118, 118) solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px; /*".." retorna a pasta principal, pois o arquivo estilo.css está dentro da pasta secundária _css, logo é necessário voltar a pasta principal antes de acessar _imagems*/
+}
+header#cabecalho h1{
+    color: rgb(118, 118, 118);
+    font-size: 30pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    color: rgb(190, 190, 190);
+    font-size: 20pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+body{
+    background-color: rgb(190, 190, 190);
+}
+
 p{
     text-align: justify;
     text-indent: 50px;
-}
-
-body{
-    background-color: rgb(228, 228, 228)
 }
 
 div#interface{
     background-color: rgb(255, 255, 255);
     width: 900px;
     margin: -20px auto 0px auto;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596)
+    
 }
 
 
