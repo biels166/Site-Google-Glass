@@ -4,6 +4,10 @@
     font-family: 'FonteLogo';
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+@font-face {
+    font-family: 'Fontesubtitulo';
+    src: url('../_fonts/TitilliumWeb-ExtraLight.ttf');
+}
 
 /*Formatação do Menu*/
 nav#menu ul{
@@ -58,7 +62,7 @@ header#cabecalho h1{
 header#cabecalho h2{
     color: rgb(190, 190, 190);
     font-size: 20pt;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Fontesubtitulo', sans-serif;
     padding: 0px;
     margin-top: 0px;
 }
