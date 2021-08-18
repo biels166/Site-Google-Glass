@@ -94,6 +94,30 @@ section#corpo{
     padding-right: 20px;
 }
 
+article#noticia-principal h2{
+    font-size: 15pt;
+    font-weight: bold;
+    vertical-align: middle;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    color: rgb(88, 88, 88);
+    background-color: rgb(190, 190, 190);
+    padding: 5px 5px 5px 10px;
+
+}
+
+header#cabecalho-artigo h1{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'FonteLogo', sans-serif;
+    color: rgb(118, 118, 118);
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: rgb(118, 118, 118);
+    border-color: white;
+}
+
+
 /*Formatação da tabela de Especificações*/
 table#tabelaspec{
     border: 1px rgb(118, 118, 118) solid;
@@ -129,7 +153,6 @@ table#tabelaspec span{
     color: rgb(114, 114, 114);
     font-weight: bold;
     font-size: 8pt;
-    
 }
 
 aside#lateral{
@@ -146,7 +169,6 @@ footer#rodape p{
     text-align: center;
     text-decoration: none;
 }
-
 
 /*Formatação de fotos com legenda*/
 figure.foto-legenda{
