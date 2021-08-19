@@ -33,40 +33,59 @@
             </nav>
         </header>
 
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                     <h3>Fale Conosco > Contato</h3>
+                     <h1>Formulário de Contato</h1>
+                     <h2>por Gabriel Santana</h2>
+                     <h3 class="direita">Atualizado em 15/Agosto/2021</h3>
+                    </hgroup>
+                </header>
+            </article>
+        </section>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <form action="">
+            <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+               <p>Nome: <input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome Completo"></p> 
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+               <p>Senha: <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 Digitos"></p>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+               <p>E-mail: <input type="email" name="tmail" id="Cmail" size="30" maxlength="40" placeholder="E-mail"></p>
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+                <fieldset id="sexo">
+                    <legend>sexo</legend>
+                    <input type="radio" name="tsexo" id="cmasc"> <label for="cmasc">Masculino</label> <br>
+                    <input type="radio" name="tsexo" id=cfem> <label for="cfem">Feminino</label>
+                 </fieldset>
 
-Quero um Google Glass
+                <p>Data de Nascimento: <input type="date" name="tdata" id="cdata"></p>
+            </fieldset>
+
+            <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+                <p>Logradouro:</p>
+                <p>Número:</p>   
+                <p>Estado:</p>
+                <p>Cidade:</p>
+            </fieldset>
+
+            <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+            Grau de Urgência:
+            Mensagem:
+            </fieldset>
+
+            <fieldset id="pedido"><legend>Quero um Google Glass</legend>
+
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
     Preço Total: R$
+            </fieldset>
 
 
 [BOTÃO ENVIAR]
-
+            </form>
 
         <footer id="rodape">
          <p>Copyright &copy; 2021 - by Gabriel Santana</p>
